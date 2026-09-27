@@ -1,0 +1,28 @@
+{
+  "n": 1750,
+  "accuracy": 0.5257142857142857,
+  "precision": 0.9591836734693877,
+  "recall": 0.053714285714285714,
+  "f1": 0.10173160173160173,
+  "macro_f1": 0.38976331639375117,
+  "confusion": {
+    "tn": 873,
+    "fp": 2,
+    "fn": 828,
+    "tp": 47
+  },
+  "f1_ci95": [
+    0.0758874276061776,
+    0.1275284536575716
+  ],
+  "name": "test zs-rewrite (strict)",
+  "split": "test",
+  "strategy": "zs-rewrite",
+  "model": "llama3.2-3b",
+  "abstentions": 0,
+  "refusals": 0,
+  "refusals_on_offensive": 0,
+  "predicted_offensive_rate": 0.028,
+  "f1_if_refusal_means_offensive": 0.10173160173160173,
+  "mean_seconds": 2.535352563585554
+}

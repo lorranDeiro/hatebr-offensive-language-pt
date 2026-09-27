@@ -1,0 +1,28 @@
+{
+  "n": 300,
+  "accuracy": 0.7766666666666666,
+  "precision": 0.7985611510791367,
+  "recall": 0.74,
+  "f1": 0.7681660899653979,
+  "macro_f1": 0.7763660031820558,
+  "confusion": {
+    "tn": 122,
+    "fp": 28,
+    "fn": 39,
+    "tp": 111
+  },
+  "f1_ci95": [
+    0.7107732943688885,
+    0.819672131147541
+  ],
+  "name": "val  cot-256 (strict)",
+  "split": "val",
+  "strategy": "cot-256",
+  "model": "llama3.2-3b",
+  "abstentions": 21,
+  "refusals": 14,
+  "refusals_on_offensive": 13,
+  "predicted_offensive_rate": 0.46,
+  "f1_if_refusal_means_offensive": 0.8211920529801324,
+  "mean_seconds": 4.846401325066885
+}

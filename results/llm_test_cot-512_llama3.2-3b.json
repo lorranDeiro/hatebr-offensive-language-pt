@@ -1,0 +1,28 @@
+{
+  "n": 1750,
+  "accuracy": 0.7742857142857142,
+  "precision": 0.7771362586605081,
+  "recall": 0.7691428571428571,
+  "f1": 0.7731188971855255,
+  "macro_f1": 0.7742797442152756,
+  "confusion": {
+    "tn": 682,
+    "fp": 193,
+    "fn": 202,
+    "tp": 673
+  },
+  "f1_ci95": [
+    0.7505910165484634,
+    0.7941531575699055
+  ],
+  "name": "test cot-512 (strict)",
+  "split": "test",
+  "strategy": "cot-512",
+  "model": "llama3.2-3b",
+  "abstentions": 126,
+  "refusals": 64,
+  "refusals_on_offensive": 58,
+  "predicted_offensive_rate": 0.48,
+  "f1_if_refusal_means_offensive": 0.8126737076153419,
+  "mean_seconds": 5.1464653491973875
+}

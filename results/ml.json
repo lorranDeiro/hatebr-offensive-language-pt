@@ -1,0 +1,151 @@
+{
+  "Naive Bayes (original: TF-IDF fit on all)": {
+    "n": 1750,
+    "accuracy": 0.8491428571428571,
+    "precision": 0.841340782122905,
+    "recall": 0.8605714285714285,
+    "f1": 0.8508474576271187,
+    "macro_f1": 0.8491231507788772,
+    "confusion": {
+      "tn": 733,
+      "fp": 142,
+      "fn": 122,
+      "tp": 753
+    },
+    "f1_ci95": [
+      0.8319694148399855,
+      0.8679050097592713
+    ],
+    "name": "Naive Bayes | TF-IDF fit on all"
+  },
+  "Linear SVM (original: TF-IDF fit on all)": {
+    "n": 1750,
+    "accuracy": 0.8422857142857143,
+    "precision": 0.8519388954171563,
+    "recall": 0.8285714285714286,
+    "f1": 0.8400926998841252,
+    "macro_f1": 0.8422560455452193,
+    "confusion": {
+      "tn": 749,
+      "fp": 126,
+      "fn": 150,
+      "tp": 725
+    },
+    "f1_ci95": [
+      0.8218208241976741,
+      0.8589379299640049
+    ],
+    "name": "Linear SVM | TF-IDF fit on all"
+  },
+  "Logistic Regression (original: TF-IDF fit on all)": {
+    "n": 1750,
+    "accuracy": 0.832,
+    "precision": 0.8358381502890173,
+    "recall": 0.8262857142857143,
+    "f1": 0.8310344827586207,
+    "macro_f1": 0.8319945141065831,
+    "confusion": {
+      "tn": 733,
+      "fp": 142,
+      "fn": 152,
+      "tp": 723
+    },
+    "f1_ci95": [
+      0.8117153610768174,
+      0.8496908338254487
+    ],
+    "name": "Logistic Regression | TF-IDF fit on all"
+  },
+  "Naive Bayes (corrected)": {
+    "n": 1750,
+    "accuracy": 0.844,
+    "precision": 0.8351893095768375,
+    "recall": 0.8571428571428571,
+    "f1": 0.8460236886632826,
+    "macro_f1": 0.8439730487323361,
+    "confusion": {
+      "tn": 727,
+      "fp": 148,
+      "fn": 125,
+      "tp": 750
+    },
+    "f1_ci95": [
+      0.8273395876961498,
+      0.8633103051457139
+    ],
+    "name": "Naive Bayes | Pipeline, train only"
+  },
+  "Linear SVM (corrected)": {
+    "n": 1750,
+    "accuracy": 0.8394285714285714,
+    "precision": 0.8469626168224299,
+    "recall": 0.8285714285714286,
+    "f1": 0.8376660889659157,
+    "macro_f1": 0.8394096414303858,
+    "confusion": {
+      "tn": 744,
+      "fp": 131,
+      "fn": 150,
+      "tp": 725
+    },
+    "f1_ci95": [
+      0.8185492852888625,
+      0.8556461001164144
+    ],
+    "name": "Linear SVM | Pipeline, train only"
+  },
+  "Logistic Regression (corrected)": {
+    "n": 1750,
+    "accuracy": 0.8314285714285714,
+    "precision": 0.8318077803203662,
+    "recall": 0.8308571428571428,
+    "f1": 0.8313321898227558,
+    "macro_f1": 0.8314285163848216,
+    "confusion": {
+      "tn": 728,
+      "fp": 147,
+      "fn": 148,
+      "tp": 727
+    },
+    "f1_ci95": [
+      0.8119702563784349,
+      0.850448303778348
+    ],
+    "name": "Logistic Regression | Pipeline, train only"
+  },
+  "Word+char SVM (CV-tuned)": {
+    "n": 1750,
+    "accuracy": 0.8674285714285714,
+    "precision": 0.8699654775604143,
+    "recall": 0.864,
+    "f1": 0.8669724770642202,
+    "macro_f1": 0.8674270130195816,
+    "confusion": {
+      "tn": 762,
+      "fp": 113,
+      "fn": 119,
+      "tp": 756
+    },
+    "f1_ci95": [
+      0.8501108430007532,
+      0.8847949040831636
+    ],
+    "name": "Word+char SVM | C=0.5",
+    "best_C": 0.5,
+    "cv_f1_train": 0.8616066396975578
+  },
+  "group_vs_random_5fold_f1": {
+    "Naive Bayes": {
+      "random_mean": 0.8391125618753037,
+      "random_std": 0.0024395143554261462,
+      "grouped_by_post_mean": 0.7916889394375216,
+      "grouped_by_post_std": 0.06700355060686869
+    },
+    "Word+char SVM": {
+      "random_mean": 0.8765242425663409,
+      "random_std": 0.007424657116449572,
+      "grouped_by_post_mean": 0.8356896357473087,
+      "grouped_by_post_std": 0.048785955752964065
+    }
+  }
+}

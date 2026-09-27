@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+nltk>=3.8
+spacy>=3.7
+textblob>=0.17
+matplotlib>=3.7
+tensorflow>=2.15   # only for scripts/run_cnn.py
+datasets>=2.14     # only if data/HateBR.csv is missing
+pytest>=7

@@ -1,0 +1,28 @@
+{
+  "n": 300,
+  "accuracy": 0.5166666666666667,
+  "precision": 1.0,
+  "recall": 0.03333333333333333,
+  "f1": 0.06451612903225806,
+  "macro_f1": 0.3693367162015223,
+  "confusion": {
+    "tn": 150,
+    "fp": 0,
+    "fn": 145,
+    "tp": 5
+  },
+  "f1_ci95": [
+    0.013513513513513514,
+    0.1229188219877232
+  ],
+  "name": "val  fs-original (strict)",
+  "split": "val",
+  "strategy": "fs-original",
+  "model": "llama3.2-3b",
+  "abstentions": 0,
+  "refusals": 0,
+  "refusals_on_offensive": 0,
+  "predicted_offensive_rate": 0.016666666666666666,
+  "f1_if_refusal_means_offensive": 0.06451612903225806,
+  "mean_seconds": 2.817082233428955
+}

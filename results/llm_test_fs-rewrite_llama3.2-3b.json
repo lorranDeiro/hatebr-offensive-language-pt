@@ -1,0 +1,28 @@
+{
+  "n": 1750,
+  "accuracy": 0.5822857142857143,
+  "precision": 0.9675324675324676,
+  "recall": 0.1702857142857143,
+  "f1": 0.28960155490767736,
+  "macro_f1": 0.4968849539006214,
+  "confusion": {
+    "tn": 870,
+    "fp": 5,
+    "fn": 726,
+    "tp": 149
+  },
+  "f1_ci95": [
+    0.25435808748728383,
+    0.32536111500907594
+  ],
+  "name": "test fs-rewrite (strict)",
+  "split": "test",
+  "strategy": "fs-rewrite",
+  "model": "llama3.2-3b",
+  "abstentions": 0,
+  "refusals": 0,
+  "refusals_on_offensive": 0,
+  "predicted_offensive_rate": 0.088,
+  "f1_if_refusal_means_offensive": 0.28960155490767736,
+  "mean_seconds": 2.550150842802865
+}
